@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <addNotNullAssertions enabled="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-labs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-labs" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-labs" options="" />
+    </option>
+  </component>
+</project>
